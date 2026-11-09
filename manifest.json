@@ -1,0 +1,33 @@
+{
+	"applications": {
+    	"gecko": {
+			"id": "{682a4895-858c-2018-a8c2-a28f872a9329}",
+			"strict_min_version": "60.0a1"
+    	}
+  	},
+	"name": "LightProxy",
+	"short_name": "LightProxy",
+	"version": "1.0.12",
+	"description": "A lightweight proxy switcher. Multiple protocols including HTTP, SOCKS4, SOCKS5, FTP, SSL and PAC scripts are supported. Firefox >= 60.0 required.",
+	"browser_action": {
+		"default_icon": {
+			"19": "images/icon19.png",
+			"38": "images/icon38.png"
+		},
+		"default_title": "LightProxy",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "images/icon16.png",
+		"24": "images/icon24.png",
+		"48": "images/icon48.png",
+		"96": "images/icon96.png",
+		"128": "images/icon128.png"
+	},
+	"incognito":"spanning",
+	"permissions": ["proxy", "storage", "webRequest", "webRequestBlocking"],
+	"background": {
+		"scripts":["js/jquery-3.2.1.min.js", "js/background.js"]
+	},
+	"manifest_version": 2
+}
