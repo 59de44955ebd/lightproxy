@@ -4,7 +4,7 @@ This repository is a backup archive for the final version 1.0.12 of addon [Light
 
 The add-on was removed from the Firefox Add-ons Store on 2023-10-14, maybe because the company behind it ceased to exist.
 
-If you are looking for a lightweight add-on that allows to quickly switch between different (e.g. SOCKS5) proxies that you configured before, in my opinion LightProxy is still the best add-on available, which why I still use it on a daily basis.
+If you are looking for a lightweight add-on that allows to quickly switch between different (e.g. SOCKS5) proxies that you configured before, in my opinion LightProxy is still the best add-on available, which is why I still use it on a daily basis.
 
 *LightProxy in Firefox 159 (Windows 11)*  
 ![](screenshots/lightproxy.png)  
